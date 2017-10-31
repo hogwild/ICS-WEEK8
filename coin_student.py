@@ -31,10 +31,11 @@ class Block_trial:
 if __name__ == "__main__":
     a_trial = Block_trial()
     a_trial.run()
+    #print(a_trial.outcomes)
     print(a_trial.get_run_stats())
     
-    block_size = 100
-    total_blocks = 1000
+    block_size = 10
+    total_blocks = 10000
     result = []
     for i in range(total_blocks):
         one_trial = Block_trial(block_size=block_size)

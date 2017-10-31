@@ -8,7 +8,9 @@ import dice_student
 
 def run(self):
     for i in range(self.block_size):
-        self.outcomes[self.dice.roll()] += 1
+    	side = self.dice.roll()
+    	#print("coin side:", side)
+        self.outcomes[side] += 1
 
 def get_run_stats(self):
     stats = []

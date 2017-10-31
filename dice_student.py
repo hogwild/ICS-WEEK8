@@ -10,7 +10,7 @@ import dice_helper
 class Dice:
     def __init__(self, sides=2):
         self.n_sides = sides
-        self.bounds = [x/sides for x in range(0, sides)]
+        self.bounds = [float(x)/sides for x in range(0, sides)]
         self.bounds.append(1.0)
         self.point = None
         self.lands = 0
@@ -30,10 +30,11 @@ class Dice:
 
 if __name__ == "__main__":       
     d = Dice()
+    print("defult bounds", d.bounds)
     ''' make a biased dice '''
     d.set_bounds([0.0, 0.3, 1.0])  
     ones = 0
-    num_rolls = 10
+    num_rolls = 1000
     for i in range(num_rolls):
         ones += d.roll()
     print("the dice is:", ones/float(num_rolls))

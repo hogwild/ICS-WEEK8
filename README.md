@@ -32,7 +32,7 @@ example:
 
     $cd ~/Desktop/
 
-means change current directory to the directory "Deskto"p which locates at your home directory  
+which means change current directory to the directory "Deskto"p that locates at your home directory  
 
 #### use "tab" for auto-completion  
 

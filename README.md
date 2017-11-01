@@ -6,3 +6,11 @@ You can clone it to your local desktop by input the following command in the ter
 
     $cd Desktop
     $git clone [the URL]
+
+for inclass exercise:
+
+    $cd ICS-WEEK8/inclassExercise
+
+for unit project 1:
+    
+    $cd ICS-WEEK8/up1

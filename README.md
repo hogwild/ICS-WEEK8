@@ -14,3 +14,27 @@ for inclass exercise:
 for unit project 1:
     
     $cd ICS-WEEK8/up1
+
+### Note:the commands for change directory (for linux)
+change directory:
+
+    $cd [folder name]
+
+change to the up folder:
+    
+    $cd ..
+
+change to your home directory:
+
+    $cd ~
+
+example:
+
+    $cd ~/Desktop/
+
+means change current directory to the directory "Deskto"p which locates at your home directory  
+
+#### use "tab" for auto-completion  
+
+
+     

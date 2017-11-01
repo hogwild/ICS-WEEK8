@@ -1,5 +1,6 @@
 # ICS-WEEK8
-## The start code for unit project 1, week 8
+## inclassExercise: the in-class exercise
+## up1: the start code for unit project 1
 
 You can clone it to your local desktop by input the following command in the terminal:
 

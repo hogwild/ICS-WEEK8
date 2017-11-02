@@ -9,7 +9,7 @@ You can clone it to your local desktop by input the following command in the ter
 
 for inclass exercise:
 
-    $cd ICS-WEEK8/inclassExercises`
+    $cd ICS-WEEK8/inclassExercises
 
 for unit project 1:
     

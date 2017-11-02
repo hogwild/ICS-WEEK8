@@ -37,15 +37,14 @@ class Index:
         return
 
     # implement: query interface
-'''
-return a list of tupple. if index the first sonnet (p1.txt), then
-call this function with term 'thy' will return the following:
-[(7, " Feed'st thy light's flame with self-substantial fuel,"),
- (9, ' Thy self thy foe, to thy sweet self too cruel:'),
- (9, ' Thy self thy foe, to thy sweet self too cruel:'),
- (12, ' Within thine own bud buriest thy content,')]
-          
-'''                      
+    '''
+    return a list of tupple. if index the first sonnet (p1.txt), then
+    call this function with term 'thy' will return the following:
+    [(7, " Feed'st thy light's flame with self-substantial fuel,"),
+    (9, ' Thy self thy foe, to thy sweet self too cruel:'),
+    (9, ' Thy self thy foe, to thy sweet self too cruel:'),
+    (12, ' Within thine own bud buriest thy content,')]          
+    '''                      
     def search(self, term):
         msgs = []
         return msgs

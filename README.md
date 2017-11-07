@@ -34,7 +34,7 @@ example:
 
 which means change current directory to the directory "Desktop" that locates at your home directory  
 
-#### use "tab" for auto-completion  
+#### You can  use "tab" for auto-completion  
 
 
      
